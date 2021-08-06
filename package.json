@@ -10,9 +10,6 @@
         "type": "git",
         "url": "git+https://github.com/pauljeandel/vertical-slider-picker.git"
     },
-    "publishConfig": {
-        "@pauljeandel:registry": "https://npm.pkg.github.com"
-    },
     "keywords": [
         "Ionic",
         "Angular",
