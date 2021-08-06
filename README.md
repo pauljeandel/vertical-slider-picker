@@ -66,49 +66,4 @@ ionicAppFolder=/web/www/mon-sport-maison/appli-msalm
 symphonyAppFolder=/web/www/mon-sport-maison/mon-sport-maison-sf
 
 ```
-Le fichier config_perso est obligatoire
-# Commands :
-## Ionic
-
-### Ionic environement
-
-- `:~$ bash msalm.sh -ie` / `bash msalm.sh ionicenv` : Lance l'environnement de dévellopement Ionic
-
-### Ionic Update project
-
-- `:~$ bash msalm.sh -iu` / `bash msalm.sh ioniupdate` : Lance l'environnement de dévellopement Ionic
-#### Options :
-- `--open` : Lance le serveur ionic
-- `--init` : Inititialise le projet Ionic ( Git + Nodes modules + ionic ) dans ionicAppFolder
-
-## Symphony
-
-### Symphony environement
-
-- `:~$ bash msalm.sh -sfe` / `bash msalm.sh sfenv` : Lance l'environnement de dévellopement Symphony
-
-### Symphony update project
-
-- `:~$ bash msalm.sh -sfu` / `bash msalm.sh sfupdate` : Met à jour le projet Symphony ( Git + Composer + Docktrin )
-#### Option :
-- `--init` :  Initialise le projet Symphony ( Git + Composer + Docktrin ) dans symphonyAppFolder
-
-## Share Service
-
-### Share ( Bloque l'execution du script et du terminal )
-- `:~$ bash msalm.sh -s` / `bash msalm.sh share` : Partage le dossier par default sur le réseau local et le port configuré.</br>
-- `:~$ bash msalm.sh -s <PATH>` / `bash msalm.sh share <PATH>` : Partage le dossier spécifié sur le réseau local et le port configuré.
-</br></br>***Attention :*** Le port configuré doit etre superieur à 1200 ( Je sais pas vraiment pourquoi en vrai mais sinon ça marche pas )
-### Open Share Remote
-- `:~$ bash msalm.sh -osr <PERSON>` / `bash msalm.sh openShareRemote <PERSON>` : Ouvre l'acces au partage de la personne cible via le réseau.
-#### Option :
-- `--linkFile <PATH>` :  Affiche le lien de téléchargement direct ShareService du fichier cible dans la console
-```
-:~$ bash msalm.sh -osr paulj --linkFile Project/ionic/test.png
-
->> http://192.168.3.236:3200/Project/ionic/test.png
-```
-### Open Ionic Remote
-- `:~$ bash msalm.sh -oir <PERSON>` / `bash msalm.sh openIonicRemote <PERSON>` : Ouvre le preview ionic de la personne cible via le réseau.
-
 
