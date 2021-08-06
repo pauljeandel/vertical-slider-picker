@@ -9,6 +9,9 @@
 - `mainColor` : Couleur du texte
 - `selctedColor = 'white'` : Default = primary
 
+## Output
+`selectedValue = EventEmitter<any>()`
+  
 ## Preview
 
 ![Demo](./demo.png)
