@@ -1,5 +1,5 @@
 {
-    "name": "@pauljeandel/vertical-slider-picker",
+    "name": "vertical-slider-picker",
     "version": "1.0.0",
     "description": "Angular vertical slider picker with scale and fade effect",
     "main": "vertical-slider-picker.component.ts",
