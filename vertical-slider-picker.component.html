@@ -1,0 +1,14 @@
+<ion-content id="pickerContainer" [scrollEvents]="true" (ionScroll)="scrollEvent($event)" (ionScrollEnd)="checkSelected()" class="Container" style="--color: {{this.mainColor}}">
+<div class="separator left"></div>
+<ng-container *ngIf="this.dataNumbers">
+    <div class="number" *ngFor="let el of this.data" >
+        {{el}}
+    </div>
+</ng-container>
+<ng-container *ngIf="!this.dataNumbers">
+    <div class="number" *ngFor="let el of this.dataOverwrite">
+        {{el}}
+    </div>
+</ng-container>
+<div class="separator right"></div>
+</ion-content>

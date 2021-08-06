@@ -1,0 +1,41 @@
+.Container{
+    height: 100%;
+    width: 100%;
+    font-size: 4rem;
+    text-align: center;
+    position: relative;
+    //overflow-y: scroll;
+    //overflow-x: hidden;
+
+    .number{
+        transition: color 0.3s;
+        transition: opacity 0.3s;
+        opacity: 0;
+        &.selectedPrimary{
+            color: var(--ion-color-primary) !important;
+            opacity: 1;
+        }
+        &.selectedWhite{
+            opacity: 1;
+            color: white !important;
+        }
+    }
+
+.separator{
+        position: sticky;
+        top: 5%;
+        bottom: 5%;
+        height: 90%;
+        width: 1px;
+        background-color: lightgrey;
+
+        &.left{
+            left: 15%;
+        }
+        &.right{
+            left: 85%;
+        }
+    }
+
+
+}
