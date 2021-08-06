@@ -9,5 +9,5 @@ jobs:
       - name: Create or Update Project Card
         uses: peter-evans/create-or-update-project-card@v1
         with:
-          project-name: Mon Sport A La Maison
+          project-name: Vertical-slider-picker
           column-name: TODO
