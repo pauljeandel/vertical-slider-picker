@@ -1,29 +1,29 @@
 {
-  "name": "@pauljeandel/vertical-slider-picker",
-  "version": "1.0.0",
-  "description": "Angular vertical slider picker with scale and fade effect",
-  "main": "vertical-slider-picker.component.ts",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/pauljeandel/vertical-slider-picker.git"
-  },
-  "publishConfig": {
-  "registry":"https://npm.pkg.github.com"
-},
-  "keywords": [
-    "Ionic",
-    "Angular",
-    "Slider",
-    "Fade",
-    "Scale"
-  ],
-  "author": "Paul Jeandel",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/pauljeandel/vertical-slider-picker/issues"
-  },
-  "homepage": "https://github.com/pauljeandel/vertical-slider-picker#readme"
+    "name": "@pauljeandel/vertical-slider-picker",
+    "version": "1.0.0",
+    "description": "Angular vertical slider picker with scale and fade effect",
+    "main": "vertical-slider-picker.component.ts",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/pauljeandel/vertical-slider-picker.git"
+    },
+    "publishConfig": {
+        "@pauljeandel:registry": "https://npm.pkg.github.com"
+    },
+    "keywords": [
+        "Ionic",
+        "Angular",
+        "Slider",
+        "Fade",
+        "Scale"
+    ],
+    "author": "Paul Jeandel",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/pauljeandel/vertical-slider-picker/issues"
+    },
+    "homepage": "https://github.com/pauljeandel/vertical-slider-picker#readme"
 }
